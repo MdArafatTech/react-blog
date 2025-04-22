@@ -32,7 +32,7 @@ const Simpleslider = () => {
               className="bg-cover min-h-[400px] bg-no-repeat bg-center flex flex-col justify-center items-center text-white p-0"
               style={{ backgroundImage: `url("${sliderImage.url}")` }}
             >
-              <div className="bg-black bg-opacity-50 p-6 rounded-xl text-center">
+              <div className="bg-black bg-opacity-50 p-6 rounded-xl text-center max-w-[70vw]">
                 <h2 className="text-2xl lg:text-3xl font-bold">{sliderImage.title}</h2>
                 <p className="text-sm lg:text-lg mt-2">{sliderImage.description}</p>
               </div>

@@ -4,6 +4,7 @@ import darklogo from "../assets/img/logodark.png"
 import whitelogo from "../assets/img/logowhite.png"
 
 import ThemeSwitch from './ThemeSwitch';
+import { Link } from 'react-router';
 
 const Header = () => {
 
@@ -28,13 +29,15 @@ const Header = () => {
     }, [])
 
     return (
-        <div className='fixed top-0 w-full z-10 flex justify-between items-center px-[5%] header-bg'>
-            <div className="logo">
-                <img src={logo} alt="" className="logo-img" />
-            </div>
-            <Navbar></Navbar>
-            <ThemeSwitch></ThemeSwitch>
+      <div className="fixed top-0 w-full z-10 flex justify-between items-center px-[5%] header-bg">
+        <div className="logo">
+          <Link to="/">
+            <img src={logo} alt="" className="logo-img" />
+          </Link>
         </div>
+        <Navbar></Navbar>
+        <ThemeSwitch></ThemeSwitch>
+      </div>
     );
 };
 
