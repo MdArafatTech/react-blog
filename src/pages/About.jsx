@@ -53,7 +53,7 @@ const About = () => {
 
           <h3 className="text-xl font-bold mb-2">Recharge Your Destination</h3>
           <p className="opacity-85">
-            {" "}
+            
             Before embarking on your journey, take the time to research your
             destination. This includes understanding the local culture, customs,
             and laws, as well as identifying top attractions, restaurants, and
@@ -101,7 +101,7 @@ const About = () => {
 
         <div className="one">
           <img
-            src="/public/img/posts/about2.jpg.jpg"
+            src="/public/img/posts/about2.jpg"
             className=" rounded-xl my-6"
             alt=""
           />
