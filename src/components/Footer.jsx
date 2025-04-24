@@ -1,4 +1,5 @@
 import React from 'react';
+import footerlogo from "../assets/img/Logo.png"
 
 const Footer = () => {
   return ( 
@@ -12,8 +13,8 @@ const Footer = () => {
     <h3 className='text-xl mb-2 font-bold'>About</h3>
          <p className='mb-4 text-[15px] opacity-60'>Lorem ipsum dolor sit amet consectetur adipisicing elit. Libero impedit quis neque architecto, voluptatum voluptate itaque amet deserunt culpa exercitationem!</p>
   
-         <p className=''>Email: <a href="mailto:mdalarafatabir@gmail.com"className='opacity-60 text-[15px]  hover:text-blue-500 transition duration-250' >mdalarafatabir@gmail.com</a></p>
-         <p className=''>Phone: <a href="tel:+8801303180712"className='opacity-60 text-[15px]  hover:text-blue-500 transition duration-250' >+8801303180712</a></p>
+         <p className=''>Email: <a href="mailto:mdalarafatabir@gmail.com"className='opacity-60 text-[15px]  hover:text-blue-500 transition duration-100' >mdalarafatabir@gmail.com</a></p>
+         <p className=''>Phone: <a href="tel:+8801303180712"className='opacity-60 text-[15px]  hover:text-blue-500 transition duration-100' >+8801303180712</a></p>
          
     </nav>
     <nav>
@@ -21,10 +22,10 @@ const Footer = () => {
           <div className="quick">
           <h3 className='text-xl mb-2 font-bold'>Quick Link</h3>
           <ul className='opacity-60'>
-            <li><a className=' hover:text-blue-500 transition duration-250' href="/">Home</a></li>
-            <li><a className=' hover:text-blue-500 transition duration-250' href="/about">About</a></li>
-            <li><a className=' hover:text-blue-500 transition duration-250' href="/blogs">Blogs</a></li>
-            <li><a className=' hover:text-blue-500 transition duration-250' href="/contact">Contact</a></li>
+            <li><a className=' hover:text-blue-500 transition duration-100' href="/">Home</a></li>
+            <li><a className=' hover:text-blue-500 transition duration-100' href="/about">About</a></li>
+            <li><a className=' hover:text-blue-500 transition duration-100' href="/blogs">Blogs</a></li>
+            <li><a className=' hover:text-blue-500 transition duration-100' href="/contact">Contact</a></li>
           </ul>
   
           </div>
@@ -33,10 +34,10 @@ const Footer = () => {
          <div className="catagory">
           <h3 className='text-xl mb-2 font-bold'>Catagory</h3>
           <ul className='opacity-60'>
-          <li><a className=' hover:text-blue-500 transition duration-250' href="/">Home</a></li>
-            <li><a className=' hover:text-blue-500 transition duration-250' href="/about">About</a></li>
-            <li><a className=' hover:text-blue-500 transition duration-250' href="/blogs">Blogs</a></li>
-            <li><a className=' hover:text-blue-500 transition duration-250' href="/contact">Contact</a></li>
+          <li><a className=' hover:text-blue-500 transition duration-100' href="/">Home</a></li>
+            <li><a className=' hover:text-blue-500 transition duration-100' href="/about">About</a></li>
+            <li><a className=' hover:text-blue-500 transition duration-100' href="/blogs">Blogs</a></li>
+            <li><a className=' hover:text-blue-500 transition duration-100' href="/contact">Contact</a></li>
           </ul>
           </div>
          </div>
@@ -70,7 +71,7 @@ const Footer = () => {
 
 <div className='flex items-center'>
 <div className="icon h-[48px] w-[48px] mr-1">
-<a href="/"> <img src="/public/img/footer/Logo.png" alt="" /></a>
+<a href="/"> <img src={footerlogo} alt="" /></a>
  </div>
  <div className='flex flex-col'>
  <p className='flex text-[20px]'>Meta<h3 className='font-bold'>Blog</h3>
@@ -84,9 +85,9 @@ const Footer = () => {
 
 
  <div className="policy flex gap-5">
- <a className=' hover:text-blue-500 transition duration-250' href="">Terms of use</a>
- <a className=' hover:text-blue-500 transition duration-250' href="">Privacy Policy</a>
- <a className=' hover:text-blue-500 transition duration-250' href="">Cookie Policy</a>
+ <a className=' hover:text-blue-500 transition duration-100' href="">Terms of use</a>
+ <a className=' hover:text-blue-500 transition duration-100' href="">Privacy Policy</a>
+ <a className=' hover:text-blue-500 transition duration-100' href="">Cookie Policy</a>
  </div>
 </div>
 

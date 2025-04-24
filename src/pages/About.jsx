@@ -1,4 +1,7 @@
 import React from "react";
+import user from "../assets/img/user.png"
+import about1 from "../assets/img/about1.jpg"
+import about2 from "../assets/img/about2.jpg"
 
 const About = () => {
   return (
@@ -20,7 +23,7 @@ const About = () => {
           <div className="flex items-center ">
             <img
               className="h-7 mr-2"
-              src="/public/img/author/erics.png"
+              src={user}
               alt=""
             />
             <h2 className="text-sm font-bold mr-3">Tracey Wilson</h2>
@@ -28,7 +31,7 @@ const About = () => {
           </div>
 
           <img
-            src="/public/img/posts/about1.jpg"
+            src={about1}
             alt=""
             className=" rounded-xl my-5"
           />
@@ -87,21 +90,21 @@ const About = () => {
             felis. Tincidunt arcu non sodales neque sodales ut etiam sit amet.
           </p>
 
-          {/* <div className="bg-[#f6f6f7] p-5 rounded-xl my-5  shadow-xl  ">
-                    <q className='text-[18px] italic'> Traveling can expose you to new environments and potential health risks, so it's crucial to take precautions to stay safe and healthy.</q>
-                </div> */}
+          <div className=" blockquate p-5 rounded-xl my-5  shadow-2xl font-serif  text-blue-500 hover:scale-102 transition-all duration-350 ease-in-out hover:bg-blue-400 hover:text-white ">
+                    <q className='text-[20px] italic'> Traveling can expose you to new environments and potential health risks, so it's crucial to take precautions to stay safe and healthy.</q>
+                </div>
 
-<div className="bg-[#f6f6f7] dark:bg-gray-800 p-5 rounded-xl my-5 shadow-xl transition-colors duration-300">
+{/* <div className="bg-[#f6f6f7] dark:bg-gray-800 p-5 rounded-xl my-5 shadow-xl transition-colors duration-300">
   <q className="text-[18px] italic text-gray-900 dark:text-gray-100">
     Traveling can expose you to new environments and potential health risks, so it's crucial to take precautions to stay safe and healthy.
   </q>
-</div>
+</div> */}
 
         </div>
 
         <div className="one">
           <img
-            src="/public/img/posts/about2.jpg"
+            src={about2}
             className=" rounded-xl my-6"
             alt=""
           />
