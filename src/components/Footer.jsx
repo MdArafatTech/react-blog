@@ -70,7 +70,7 @@ const Footer = () => {
 
 <div className='flex items-center'>
 <div className="icon h-[48px] w-[48px] mr-1">
-<a href="/"> <img src="/src/assets/img/Logo footer.png" alt="Logo Dark"  /></a>
+<a href="/"> <img src="/public/img/footer/Logo.png" alt="" /></a>
  </div>
  <div className='flex flex-col'>
  <p className='flex text-[20px]'>Meta<h3 className='font-bold'>Blog</h3>

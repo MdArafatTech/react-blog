@@ -28,7 +28,7 @@ const About = () => {
           </div>
 
           <img
-            src="/src/assets/img/about1.jpg"
+            src="/public/img/posts/about1.jpg"
             alt=""
             className=" rounded-xl my-5"
           />
@@ -101,7 +101,7 @@ const About = () => {
 
         <div className="one">
           <img
-            src="/src/assets/img/about2.jpg"
+            src="/public/img/posts/about2.jpg.jpg"
             className=" rounded-xl my-6"
             alt=""
           />
