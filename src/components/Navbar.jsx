@@ -5,16 +5,16 @@ const Navbar = () => {
 
   const links = (
     <>
-      <li className="text-xl mb-5 md:mb-0  hover:text-blue-500 transition duration-250">
+      <li className="text-xl mb-5 md:mb-0  hover:text-blue-500 transition duration-100">
         <Link to="/">Home</Link>
       </li>
-      <li className="text-xl mb-5 md:mb-0  hover:text-blue-500 transition duration-250">
+      <li className="text-xl mb-5 md:mb-0  hover:text-blue-500 transition duration-100">
         <Link to="/about">About</Link>
       </li>
-      <li className="text-xl mb-5 md:mb-0  hover:text-blue-500 transition duration-250">
+      <li className="text-xl mb-5 md:mb-0  hover:text-blue-500 transition duration-100">
         <Link to="/blogs">Blogs</Link>
       </li>
-      <li className="text-xl mb-5 md:mb-0  hover:text-blue-500 transition duration-250">
+      <li className="text-xl mb-5 md:mb-0  hover:text-blue-500 transition duration-100">
         <Link to="/contact">Contact</Link>
       </li>
     </>

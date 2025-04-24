@@ -2,6 +2,7 @@ import React from 'react';
 import footerlogo from "../assets/img/Logo.png"
 
 const Footer = () => {
+  alert("You are Subscribed");
   return ( 
     
   <div className=''>
@@ -55,7 +56,12 @@ const Footer = () => {
             placeholder="enter email"
             className="input input-bordered w-full" /> 
            <br />
-           <button className="btn btn-primary w-full mt-2">Subscribe</button>
+           <button onclick="myFunction()" className="btn btn-primary w-full mt-2">Subscribe</button>
+       
+
+
+
+
            <input type="text" />
          
         </div>
