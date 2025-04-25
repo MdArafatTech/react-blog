@@ -2,13 +2,15 @@ import React from 'react';
 import footerlogo from "../assets/img/Logo.png"
 
 const Footer = () => {
-  alert("You are Subscribed");
+  const showAlert = () => {
+    alert("Subscribed!");
+  };
   return ( 
     
   <div className=''>
     
 
-    <div className="p-[6%] bg-base-200 text-base-content  grid sm:grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-4 ">
+    <div className="p-[6%] mt-10 bg-base-200 text-base-content  grid sm:grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-4 ">
      
      <nav>
     <h3 className='text-xl mb-2 font-bold'>About</h3>
@@ -45,7 +47,7 @@ const Footer = () => {
         </div>
     </nav>
    
-    <form className='flex flex-col items-center border border-sky-500 p-2 mr-3 rounded'>
+    <form className=' form flex flex-col items-center  p-4 mr-3 rounded'>
       <h6 className='text-xl font-bold'>Weekly Newsletter</h6>
       <p className='opacity-60 text-[15px] mb-5'>Get blog articles and offers via email</p>
       <fieldset className="w-full">
@@ -56,10 +58,15 @@ const Footer = () => {
             placeholder="enter email"
             className="input input-bordered w-full" /> 
            <br />
-           <button onclick="myFunction()" className="btn btn-primary w-full mt-2">Subscribe</button>
-       
+           {/* <button onclick="myFunction()" className="btn btn-primary w-full mt-2">Subscribe</button> */}
+            
 
-
+           <button
+            onClick={showAlert}
+            className="w-full bg-blue-600 hover:bg-blue-700 text-white font-semibold py-2 px-4 rounded my-2"
+          >
+            Subscribe
+          </button>
 
 
            <input type="text" />

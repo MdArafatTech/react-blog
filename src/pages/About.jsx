@@ -90,7 +90,7 @@ const About = () => {
             felis. Tincidunt arcu non sodales neque sodales ut etiam sit amet.
           </p>
 
-          <div className=" blockquate p-5 rounded-xl my-5  shadow-2xl font-serif  text-blue-500 hover:scale-102 transition-all duration-350 ease-in-out hover:bg-blue-400 hover:text-white ">
+          <div className=" blockquate p-5 rounded-xl my-5   font-serif  text-blue-500 hover:scale-102 transition-all duration-350 ease-in-out ">
                     <q className='text-[20px] italic'> Traveling can expose you to new environments and potential health risks, so it's crucial to take precautions to stay safe and healthy.</q>
                 </div>
 
