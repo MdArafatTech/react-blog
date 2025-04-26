@@ -10,7 +10,7 @@ const Contact = () => {
             
          <div>
 
-<div className=' contact flex flex-col items-center px-[6%] py-[3%] mx-[6%] mb-20  '>
+<div className=' contact flex flex-col items-center px-[15%] py-[3%] mx-[6%] my-[2%]  '>
 
 <div className='flex  items-center gap-2'>
      <img className='h-[64px] w-[64px]' src={user} alt="" />

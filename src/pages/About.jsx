@@ -6,7 +6,7 @@ import about2 from "../assets/img/about2.jpg"
 const About = () => {
   return (
     <div>
-      <div className="about p-[6%]">
+      <div className="about px-[18%] py-[2%]">
         <div className="one">
           <a href="">
             {" "}
