@@ -11,6 +11,7 @@
     --ad-bg: #E8E8EA;
     --footer-bg: #F6F6F7;
     
+    
 }
 [data-theme="light"]{
     --bg-color: azure;
@@ -21,6 +22,7 @@
     transition: all 0.5s ease-in-out;
     --form-bg: #ffff;
     --contact-bg:#f6f6f7;
+    --info-bg:#fef2f2;
 }
 
 [data-theme="dark"]{
@@ -31,6 +33,7 @@
     --footer-bg:#141624;
     --form-bg: #242535;
     --contact-bg:#242535;
+    --info-bg:#05334e;
     transition: all 0.5s ease-in-out;
 }
 
@@ -58,6 +61,8 @@
     background-color: var(--form-bg);
 }
 
-.contact{
-    background-color: var(--contact-bg);
+.info{
+    background-color: var(--info-bg);
+    padding:10px ;
+    border-radius:7px ;
 }
