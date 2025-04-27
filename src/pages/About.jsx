@@ -1,6 +1,13 @@
 import React from 'react';
 import Marqueee from '../components/Marqueee';
 
+import author1 from '../assets/about-author/author1.jpeg';
+import author2 from '../assets/about-author/author2.webp';
+import author3 from '../assets/about-author/author3.jpg';
+import author4 from '../assets/about-author/author4.webp';
+import author5 from '../assets/about-author/author5.jpeg';
+import author6 from '../assets/about-author/author6.avif';
+
 // paste your JSON array here directly:
 const authors = [
   {
@@ -10,7 +17,7 @@ const authors = [
     "content": "In 2007, Joanna began Cup of Jo as a weekend hobby, but then developed it into the award-winning daily website it is today — with a deeply engaged readership, thought-leading essays, and a diverse team of writers, photographers and contributors. In fall 2023, she also launched a weekly newsletter, Big Salad, which became an instant Substack bestseller and now has more than 175,000 subscribers. She has also written for many magazines, including Glamour and New York. Joanna lives with her two chatty boys in Brooklyn. ",
     "email": "hello@cupofjo.com",
     "insta": "Instagram",
-    "authorImage": "/public/img/about-author/author1.jpeg"
+    "authorImage":author1
     },
 
     {
@@ -20,7 +27,7 @@ const authors = [
     "content": "Shortly after college, Maureen moved to New York to pursue a career in digital marketing, despite her parents’ skepticism that people would ever “buy stuff on the internet.” Since then she has helped grow online sales at companies like L’Oreal and Madewell. Before joining Cup of Jo, she was driving traffic and maximizing ROI on the performance marketing team at J.Crew. Maureen lives in Seattle with her husband and two funny kids. ",
     "email": "hello@cupofjo.com",
     "insta": "Instagram",
-    "authorImage": "/public/img/about-author/author2.webp"
+    "authorImage": author2
     },
 
     {
@@ -30,7 +37,7 @@ const authors = [
     "content": "Jannelle has always loved talking to people and hearing their stories. After graduating with a journalism degree, she wrote on the marketing teams of various tech companies. But she always found time to write for her personal blog, which featured personal essays, travel recommendations and life realizations. In November 2021, she began working for Cup of Jo and quickly become an invaluable part of the team. Jannelle lives in the Bay Area with her husband and two children.",
     "email": "hello@cupofjo.com",
     "insta": "Instagram",
-    "authorImage": "/public/img/about-author/author3.jpg"
+    "authorImage": author3
     },
 
    {
@@ -40,7 +47,7 @@ const authors = [
     "content": "Kaitlyn is the newsletter editor for Cup of Jo’s weekly Substack, Big Salad. Her essays on mothering and the climate crisis have appeared in Orion, Catapult, and elsewhere. She has won essay prizes from Fourth Genre and Prairie Schooner. She lives with her spouse and two kids in western Washington, where she enjoys hanging out at the beach and taking family bike rides.",
     "email": "hello@cupofjo.com",
     "insta": "Instagram",
-    "authorImage": "/public/img/about-author/author4.webp"
+    "authorImage": author4
     },
 
     {
@@ -50,7 +57,7 @@ const authors = [
     "content": "Christine first picked up a camera at age nine, but it wasn’t until many years after college that she realized that photography was it. She is now a commercial and editorial photographer specializing in lifestyle, portraits and food, with clients such as Pepsi, Shake Shack, The Kitchn and of course, Cup of Jo. Her work has taken her all over the world, as far as India and Uganda. When photographing people, especially women, she loves to draw out their inherent beauty and be at ease. She is always drawn to beautiful light and real connection.",
     "email": "hello@cupofjo.com",
     "insta": "Instagram",
-    "authorImage": "/public/img/about-author/author5.jpeg"
+    "authorImage":author5
     },
 
     {
@@ -60,7 +67,7 @@ const authors = [
     "content": "Christine wears many hats when it comes to writing and books. She’s had a 15-year career in book publishing — working as an editor at Doubleday, Hyperion and Simon and Schuster — where she’s published bestselling books such as From Scratch, Surviving the White Gaze and These Ghosts Are Family. In addition to her passion for championing other writers, she’s a novelist, too. Her most recent novel, You Were Always Mine, written with Jo Piazza, came out in 2023. She loves any chance to talk about race, friendship, books and television, preferably while eating French fries.",
     "email": "hello@cupofjo.com",
     "insta": "Instagram",
-    "authorImage": "/public/img/about-author/author6.avif"
+    "authorImage": author6
     },
   
 ];
